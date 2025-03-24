@@ -13,36 +13,12 @@ body {
   min-height: 100vh;
 }
 
-
-header {
-  /* O header será configurado automaticamente pelo header.css */
-}
-
-footer {
-  /* O footer será configurado automaticamente pelo footer.css */
-}
-
-
 main {
   padding: 20px;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-}
-
-.cadastro {
-  width: 100%;
-  max-width: 500px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.container h2 {
-  
 }
 
 
@@ -64,13 +40,6 @@ main {
   color: #4caf50;
 }
 
-.cadastro-form .form-group {
-  margin-bottom: 20px;
-}
-
-.cadastro-form .form-group label {
-  display: block;
-  margin-bottom: 5px;
 .form {
   padding: 18px;
 }
@@ -88,19 +57,12 @@ main {
   color: #333;
 }
 
-.cadastro-form .form-group input {
-
 .form-content input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-
-}
-
-.cadastro-form input:focus {
-
 
   
 }
@@ -110,10 +72,6 @@ main {
   border-color: #4caf50;
 }
 
-.error {
-  color: red;
-  font-size: 0.9rem;
-  display: none;
 .form-content a {
   position: absolute;
   bottom: -3px;
@@ -132,7 +90,6 @@ main {
   cursor: pointer;
   width: 100%;
   margin-bottom: 10px;
-  transition: background-color 0.3s;
   transition: background-color 0.3s;    
 }
 
@@ -152,7 +109,6 @@ main {
 }
 
 
-
 .register-link {
   text-align: center;
   margin-top: 10px;
@@ -167,7 +123,4 @@ main {
 
 .register-link a:hover {
   text-decoration: underline;
-
-}
-
 }
